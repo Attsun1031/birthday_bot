@@ -1,0 +1,28 @@
+one:
+  birthday: 19790326
+  comment: Brainは名盤でしょう。
+  name_en: Hiromi Uehara
+  name_ja: 上原ひろみ
+  introduction: 世界を代表するジャズ・ピアニストである
+
+two:
+  birthday: 99990110
+  comment:
+  name_en: Michael Schenker
+  name_ja: マイケル・シェンカー
+  introduction: ドイツの生んだ早熟の天才、
+
+three:
+  birthday: 99990326
+  comment:
+  name_en: Diana Ross
+  name_ja:
+  introduction:
+
+four:
+  birthday: 99990110
+  comment:
+  name_en: Max Roach
+  name_ja:
+  introduction:
+
