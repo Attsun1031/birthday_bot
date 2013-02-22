@@ -1,0 +1,6 @@
+www:
+    type: ruby
+    approot: app
+
+db:
+    type: mysql
