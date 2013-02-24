@@ -13,5 +13,5 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
-/config/oauth.yml
+/config/secret/*
 /.dotcloud

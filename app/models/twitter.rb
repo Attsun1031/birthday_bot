@@ -7,9 +7,11 @@ module Twitter
 
   MAX_STATUS_LENGTH = 140
 
+  TWITTER_OAUTH_PATH = "config/secret/twitter_oauth.yml"
+
   # birthday_bot アプリケーション用に Twitter API をコールする
   def self.request_for_birthday_bot(api_name, *params)
-    twitter_oauth_infos = YAML.load_file("config/oauth.yml")["twitter"]
+    twitter_oauth_infos = YAML.load_file TWITTER_OAUTH_PATH
     api = TwitterAPI.new(twitter_oauth_infos["consumer_key"], twitter_oauth_infos["consumer_secret"])
     params = [twitter_oauth_infos["access_token"], twitter_oauth_infos["access_token_secret"]] + params
     result = api.send(api_name, *params)
@@ -27,7 +29,7 @@ module Twitter
 
     def update_status(access_token, access_secret, status)
       validate_status status
-      access_token = prepare_access_token(access_token, access_secret)
+      access_token = create_access_token(access_token, access_secret)
       api_url = build_api_url("/statuses/update.json")
       return access_token.post(api_url, :status => status)
     end
@@ -41,7 +43,7 @@ module Twitter
       return consumer
     end
 
-    def prepare_access_token(oauth_token, oauth_token_secret)
+    def create_access_token(oauth_token, oauth_token_secret)
       token_hash = {
         :oauth_token => oauth_token,
         :oauth_token_secret => oauth_token_secret
@@ -60,7 +62,6 @@ module Twitter
         raise Exceptions::InvalidStatusException,
           'Lenght of status is over the limit, length: %d, limit: %d' % [status.length, MAX_STATUS_LENGTH]
       end
-      return true
     end
   end
 

@@ -38,12 +38,10 @@ describe Twitter do
   describe "request_for_birthday_bot" do
     before do
       secret_yaml = {
-        "twitter" => {
-          "consumer_key" => "consumer_key_dummy",
-          "consumer_secret" => "consumer_secret_dummy",
-          "access_token" => "access_key_dummy",
-          "access_token_secret" => "access_seret_dummy"
-        }
+        "consumer_key" => "consumer_key_dummy",
+        "consumer_secret" => "consumer_secret_dummy",
+        "access_token" => "access_key_dummy",
+        "access_token_secret" => "access_seret_dummy"
       }
       YAML.stub!(:load_file).and_return(secret_yaml)
       @api = mock(Twitter::TwitterAPI)
