@@ -41,8 +41,8 @@ describe Twitter do
         "twitter" => {
           "consumer_key" => "consumer_key_dummy",
           "consumer_secret" => "consumer_secret_dummy",
-          "access_key" => "access_key_dummy",
-          "access_secret" => "access_seret_dummy"
+          "access_token" => "access_key_dummy",
+          "access_token_secret" => "access_seret_dummy"
         }
       }
       YAML.stub!(:load_file).and_return(secret_yaml)

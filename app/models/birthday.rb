@@ -30,11 +30,7 @@ class Birthday < ActiveRecord::Base
     birthdays = find_by_birthday target_date
     birthdays.each do |birthday|
       take_interval_between_post
-      begin
-        birthday.post_birthday
-      rescue Twitter::Exceptions::InvalidStatusException => exception
-        logger.error "Failed to post birthday. name: %s, reason: %s" % [name, exception.message]
-      end
+      post_each_birthday birthday
     end
   end
 
@@ -48,4 +44,13 @@ class Birthday < ActiveRecord::Base
   def self.take_interval_between_post
     sleep 5
   end
+
+  def self.post_each_birthday birthday
+    begin
+      birthday.post_birthday
+    rescue Twitter::Exceptions::InvalidStatusException => exception
+      logger.error "Failed to post birthday. name: %s, reason: %s" % [name, exception.message]
+    end
+  end
+
 end
