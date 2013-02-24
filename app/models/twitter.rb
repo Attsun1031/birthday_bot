@@ -9,9 +9,9 @@ module Twitter
 
   # birthday_bot アプリケーション用に Twitter API をコールする
   def self.request_for_birthday_bot(api_name, *params)
-    twitter_oauth_infos = YAML.load_file("oauth.yml")["twitter"]
+    twitter_oauth_infos = YAML.load_file("config/oauth.yml")["twitter"]
     api = TwitterAPI.new(twitter_oauth_infos["consumer_key"], twitter_oauth_infos["consumer_secret"])
-    params = [twitter_oauth_infos["access_key"], twitter_oauth_infos["access_secret"]] + params
+    params = [twitter_oauth_infos["access_token"], twitter_oauth_infos["access_token_secret"]] + params
     result = api.send(api_name, *params)
     return result
   end
