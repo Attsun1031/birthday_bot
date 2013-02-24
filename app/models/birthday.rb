@@ -3,7 +3,7 @@
 require 'twitter'
 
 class Birthday < ActiveRecord::Base
-  attr_accessible :birthday, :comment, :introduction, :name_en, :name_ja
+  attr_accessible :birthday, :comment, :introduction, :name_en, :name_ja, :link
 
   MESSAGE_TEMPLATE = '今日は%s%sの誕生日！%s'
   POST_INTERVAL = 5

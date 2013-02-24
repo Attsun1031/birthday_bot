@@ -6,6 +6,7 @@ class CreateBirthdays < ActiveRecord::Migration
       t.string :name_ja
       t.text :introduction
       t.text :comment
+      t.string :link
 
       t.timestamps
     end

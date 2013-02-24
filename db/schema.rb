@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(:version => 20130221123104) do
     t.string   "name_ja"
     t.text     "introduction"
     t.text     "comment"
+    t.string   "link"
     t.datetime "created_at",   :null => false
     t.datetime "updated_at",   :null => false
   end
