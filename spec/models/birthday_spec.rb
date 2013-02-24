@@ -10,6 +10,7 @@ describe Birthday do
 
     before do
       Birthday.stub!(:sleep)
+      Birthday.stub_chain(:logger, :error)
     end
 
     it "should post birthday comment" do

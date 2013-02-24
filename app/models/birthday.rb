@@ -13,21 +13,22 @@ class Birthday < ActiveRecord::Base
     successes = []
     errors = []
 
-    birthdays.each do |e|
+    birthdays.each do |employee|
       # take interval between tweet
       sleep 5
 
-      name = e.name_ja.present? ? e.name_ja : e.name_en
+      name = employee.name_ja.present? ? employee.name_ja : employee.name_en
       tweet = MESSAGE_TEMPLATE % [
-        e.introduction,
+        employee.introduction,
         name,
-        e.comment
+        employee.comment
       ]
       begin
         Twitter.request_for_birthday_bot(:update_status, tweet)
-        successes.append e
-      rescue Twitter::Exceptions::InvalidStatusException
-        errors.append e
+        successes.append employee
+      rescue Twitter::Exceptions::InvalidStatusException => exception
+        logger.error "Failed to post birthday. name: %s, reason: %s" % [name, exception.message]
+        errors.append employee
       end
     end
 
