@@ -6,6 +6,7 @@ class Birthday < ActiveRecord::Base
   attr_accessible :birthday, :comment, :introduction, :name_en, :name_ja
 
   MESSAGE_TEMPLATE = '今日は%s%sの誕生日！%s'
+  POST_INTERVAL = 5
 
   # 誕生日メッセージをポストする
   def post_birthday
@@ -29,20 +30,21 @@ class Birthday < ActiveRecord::Base
   def self.post_birthdays target_date
     birthdays = find_by_birthday target_date
     birthdays.each do |birthday|
-      take_interval_between_post
+      sleep POST_INTERVAL
       post_each_birthday birthday
     end
   end
 
   private
-  def build_birthday_message
-    name = name_ja.present? ? name_ja : name_en
-    tweet = MESSAGE_TEMPLATE % [introduction, name, comment]
-    return tweet
+  # 名前を返却する
+  # 日本語名が優先。
+  def name
+    return name_ja.present? ? name_ja : name_en
   end
 
-  def self.take_interval_between_post
-    sleep 5
+  def build_birthday_message
+    message = MESSAGE_TEMPLATE % [introduction, name, comment]
+    return message
   end
 
   def self.post_each_birthday birthday
@@ -52,5 +54,4 @@ class Birthday < ActiveRecord::Base
       logger.error "Failed to post birthday. name: %s, reason: %s" % [name, exception.message]
     end
   end
-
 end
