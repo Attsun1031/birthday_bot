@@ -9,6 +9,8 @@ gem 'rake', '>= 10.0.3'
 #gem 'pg'
 gem 'mysql2'
 
+gem 'googl'
+
 
 # Gems used only for assets and not required
 # in production environments by default.

@@ -65,7 +65,13 @@ GEM
     ffi (1.4.0)
     gherkin (2.11.6)
       json (>= 1.7.6)
+    googl (0.6.3)
+      httparty (~> 0.10.0)
+      json (>= 1.4.6)
     hike (1.2.1)
+    httparty (0.10.2)
+      multi_json (~> 1.0)
+      multi_xml (>= 0.5.2)
     i18n (0.6.1)
     journey (1.0.4)
     jquery-rails (2.2.1)
@@ -78,6 +84,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.21)
     multi_json (1.6.1)
+    multi_xml (0.5.3)
     mysql2 (0.3.11)
     nokogiri (1.5.6)
     oauth (0.4.7)
@@ -163,6 +170,7 @@ DEPENDENCIES
   cucumber-rails
   cucumber-rails-training-wheels
   database_cleaner
+  googl
   jquery-rails
   mysql2
   oauth

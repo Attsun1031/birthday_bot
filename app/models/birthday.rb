@@ -44,6 +44,10 @@ class Birthday < ActiveRecord::Base
 
   def build_birthday_message
     message = MESSAGE_TEMPLATE % [introduction, name, comment]
+    if link.present?
+      short_link = Googl.shorten link
+      message += " #{short_link}"
+    end
     return message
   end
 
