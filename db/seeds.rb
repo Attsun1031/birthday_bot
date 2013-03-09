@@ -5,3 +5,9 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+require 'csv'
+
+CSV.foreach('db/birthday.csv') do |row|
+  Birthday.create(:birthday => row[0], :name_en => row[1], :name_ja => row[2], :introduction => row[3], :comment => row[4], :link => row[5])
+end
