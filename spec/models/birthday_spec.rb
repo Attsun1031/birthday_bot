@@ -14,10 +14,12 @@ describe Birthday do
     end
 
     it "should post birthday comment" do
+      mock_shorten = mock(Googl::Shorten)
+      mock_shorten.should_receive(:short_url).and_return("http://goo.gl/short")
       Birthday.should_receive(:sleep).with(5).twice
       Twitter.should_receive(:request_for_birthday_bot).with(:update_status, "今日はDiana Rossの誕生日！")
       Twitter.should_receive(:request_for_birthday_bot).with(:update_status, "今日は世界を代表するジャズ・ピアニストである上原ひろみの誕生日！Brainは名盤でしょう。 http://goo.gl/short")
-      Googl.should_receive(:shorten).with("http://ueharahiromi.com/").and_return("http://goo.gl/short")
+      Googl.should_receive(:shorten).with("http://ueharahiromi.com/").and_return(mock_shorten)
       Birthday.post_birthdays Date.new(2013, 3, 26)
     end
 

@@ -1,6 +1,7 @@
 www:
     type: ruby
     approot: app
+    postinstall: ../script/postinstall.sh
 
 db:
     type: mysql

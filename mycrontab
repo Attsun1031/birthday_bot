@@ -1,0 +1,1 @@
+0 20 * * * cd ~/code; rails runner "Birthday.post_birthdays Date.today"

@@ -31,7 +31,8 @@ module Twitter
       validate_status status
       access_token = create_access_token(access_token, access_secret)
       api_url = build_api_url("/statuses/update.json")
-      return access_token.post(api_url, :status => status)
+      result = access_token.post(api_url, :status => status)
+      return result
     end
 
     private
