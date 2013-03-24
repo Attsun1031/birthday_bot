@@ -1,2 +1,1 @@
-MAILTO="atsumi.tatsuya@gmail.com"
-00 11 * * * code/script/run_birthday_bot.sh
+0 20 * * * cd ~/code; rails runner "Birthday.post_birthdays Date.today"
