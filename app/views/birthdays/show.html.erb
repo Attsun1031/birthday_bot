@@ -1,0 +1,26 @@
+<p id="notice"><%= notice %></p>
+<p>
+<b>name_ja:</b>
+<%= @birthday.name_ja %>
+</p>
+<p>
+<b>name_en:</b>
+<%= @birthday.name_en %>
+</p>
+<p>
+<b>birthday:</b>
+<%= @birthday.birthday %>
+</p>
+<p>
+<b>introduction :</b>
+<%= @birthday.introduction %>
+</p>
+<p>
+<b>comment:</b>
+<%= @birthday.comment %>
+</p>
+<b>link :</b>
+<%= @birthday.link %>
+</p>
+
+<%= link_to 'Edit', edit_birthday_path(@birthday) %> | <%= link_to 'Back', birthdays_path %>

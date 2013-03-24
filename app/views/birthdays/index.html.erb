@@ -1,0 +1,29 @@
+<h1>Birthdays</h1>
+<table>
+  <tr>
+    <th>id</th>
+    <th>birthday</th>
+    <th>name_ja</th>
+    <th>name_en</th>
+    <th>introduction</th>
+    <th>comment</th>
+    <th>link</th>
+  </tr>
+  <% @birthdays.each do |birthday| %>
+    <tr>
+      <td><%= birthday.id %></td>
+      <td><%= birthday.birthday %></td>
+      <td><%= birthday.name_ja %></td>
+      <td><%= birthday.name_en %></td>
+      <td><%= birthday.introduction %></td>
+      <td><%= birthday.comment %></td>
+      <td><%= birthday.link %></td>
+      <td><%= link_to 'Show', birthday %></td>
+      <td><%= link_to 'Edit', edit_birthday_path(birthday) %></td>
+      <td><%= link_to 'Destroy', birthday, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+<br />
+<%= link_to 'New Birthday', new_birthday_path %>
+￼￼￼￼￼￼￼￼￼￼

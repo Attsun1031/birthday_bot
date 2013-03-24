@@ -1,0 +1,38 @@
+<%= form_for(@birthday) do |f| %>
+  <% if @birthday.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@birthday.errors.count, "error") %> prohibited this birthday frombeing saved:</h2>
+      <ul>
+      <% @birthday.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <div class="field">
+    <%= f.label :name_ja %><br />
+    <%= f.text_field :name_ja %>
+  </div>
+  <div class="field">
+    <%= f.label :name_en %><br />
+    <%= f.text_field :name_en %>
+  </div>
+  <div class="field">
+    <%= f.label :birthday %><br />
+    <%= f.text_field :birthday %> </div>
+  <div class="field">
+    <%= f.label :introduction %><br />
+    <%= f.text_field :introduction %>
+  </div>
+  <div class="field">
+    <%= f.label :comment %><br />
+    <%= f.text_field :comment %>
+  </div>
+  <div class="field">
+    <%= f.label :link %><br />
+    <%= f.text_field :link %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
