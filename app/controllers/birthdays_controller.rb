@@ -1,3 +1,5 @@
+# coding: utf-8
+
 class BirthdaysController < ApplicationController
   def index
     @birthdays = Birthday.all
@@ -13,12 +15,29 @@ class BirthdaysController < ApplicationController
 
   def create
     @birthday = Birthday.new(params[:birthday])
-    respond_to do |format|
-      if @birthday.save
-        format.html { redirect_to(@birthday, :notice => 'Birthday was sacessfully created.') }
-      else
-        format.html { render :action => 'new' }
-      end
+    if @birthday.save
+      redirect_to(@birthday, :notice => 'Birthday was sucessfully created.')
+    else
+      render :action => 'new'
     end
+  end
+
+  def edit
+    @birthday = Birthday.find(params[:id])
+  end
+
+  def update
+    @birthday = Birthday.find(params[:id])
+    if @birthday.update_attributes(params[:birthday])
+      redirect_to(@birthday, :notice => 'Birthday was successfully updated.')
+    else
+      render :action => 'edit'
+    end
+  end
+
+  def destroy
+    @birthday = Birthday.find(params[:id])
+    @birthday.destroy
+    redirect_to(birthdays_url)
   end
 end

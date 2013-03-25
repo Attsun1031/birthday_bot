@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130221123104) do
+ActiveRecord::Schema.define(:version => 20130324235948) do
 
   create_table "birthdays", :force => true do |t|
     t.string   "birthday",     :null => false
@@ -25,5 +25,13 @@ ActiveRecord::Schema.define(:version => 20130221123104) do
   end
 
   add_index "birthdays", ["birthday"], :name => "index_birthdays_on_birthday"
+
+  create_table "users", :force => true do |t|
+    t.string   "name"
+    t.string   "password"
+    t.integer  "login_failed"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+  end
 
 end
