@@ -1,1 +1,1 @@
-0 20 * * * cd ~/code; rails runner "Birthday.post_birthdays Date.today"
+0 11 * * * code/script/run_birthdaybot.sh
