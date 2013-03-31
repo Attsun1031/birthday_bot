@@ -1,6 +1,9 @@
 # coding: utf-8
+require 'date'
 
 class BirthdaysController < ApplicationController
+  before_filter :parse_date_params, :only => ['search']
+
   def index
     @birthdays = Birthday.all
   end
@@ -11,6 +14,11 @@ class BirthdaysController < ApplicationController
 
   def show
     @birthday = Birthday.find(params[:id])
+  end
+
+  def search
+    @birthdays = Birthday.find_by_birthday(params[:target_date])
+    render :action => 'index'
   end
 
   def create
@@ -40,4 +48,14 @@ class BirthdaysController < ApplicationController
     @birthday.destroy
     redirect_to(birthdays_url)
   end
+
+  private
+  def parse_date_params
+    date_params = params[:date]
+    year  = date_params[:year].to_i
+    month = date_params[:month].to_i
+    day   = date_params[:day].to_i
+    params[:target_date] = Date.new(year, month, day)
+  end
 end
+

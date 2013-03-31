@@ -59,3 +59,4 @@ class Birthday < ActiveRecord::Base
     end
   end
 end
+
