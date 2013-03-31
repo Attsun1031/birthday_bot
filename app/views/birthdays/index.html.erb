@@ -1,8 +1,9 @@
 <h1>Birthdays</h1>
 <%= form_tag({:controller => 'birthdays', :action => 'search'}, {:id => 'search'}) do %>
-  <%= select_date Date.today, {:use_month_numbers => true} %>
+  <%= select_date session[:target_date], {:use_month_numbers => true} %>
   <%= submit_tag '検索' %>
 <% end %>
+<%= link_to 'All', birthdays_path %>
 <table>
   <tr>
     <th>id</th>

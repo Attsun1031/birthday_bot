@@ -3,6 +3,7 @@ require 'date'
 
 class BirthdaysController < ApplicationController
   before_filter :parse_date_params, :only => ['search']
+  after_filter :hold_search_conditions, :only => ['search']
 
   def index
     @birthdays = Birthday.all
@@ -17,7 +18,9 @@ class BirthdaysController < ApplicationController
   end
 
   def search
-    @birthdays = Birthday.find_by_birthday(params[:target_date])
+    target_date = params[:target_date]
+    @birthdays = Birthday.find_by_birthday(target_date)
+    session[:target_date] = target_date
     render :action => 'index'
   end
 
@@ -50,12 +53,23 @@ class BirthdaysController < ApplicationController
   end
 
   private
+  # 検索用日付パラメータを Date オブジェクトに変換する。
   def parse_date_params
     date_params = params[:date]
+    unless date_params != nil
+      params[:target_date] = session[:target_date]
+      return
+    end
+
     year  = date_params[:year].to_i
     month = date_params[:month].to_i
     day   = date_params[:day].to_i
     params[:target_date] = Date.new(year, month, day)
+  end
+
+  # 現在の検索条件を保持する。
+  def hold_search_conditions
+    session[:target_date] = params[:target_date]
   end
 end
 

@@ -1,4 +1,5 @@
 # coding: utf-8
+require 'date'
 
 class LoginController < ApplicationController
   skip_filter :check_logined
@@ -14,6 +15,7 @@ class LoginController < ApplicationController
     user = User.authenticate(params[:user_name], params[:user_pass])
     if user
       session[:login_user_id] = user.id
+      session[:target_date] = Date.today
       redirect_path = params[:referer] ? params[:referer] : '/'
       redirect_to redirect_path
     else
