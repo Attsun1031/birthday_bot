@@ -1,1 +1,3 @@
-0 11 * * * code/script/run_birthdaybot.sh
+MAILTO=atsumi.tatsuya@gmail.com
+3 8 * * 1-5 /Users/atsumitatsuya/src/birthday_bot/script/run_birthdaybot.sh
+36 9 * * 6-7 /Users/atsumitatsuya/src/birthday_bot/script/run_birthdaybot.sh

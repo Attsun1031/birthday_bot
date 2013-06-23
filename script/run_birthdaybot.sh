@@ -1,8 +1,6 @@
 #!/bin/bash
-export PATH=/usr/local/rvm/gems/ruby-1.9.2-p320@dotcloud/bin:/usr/local/rvm/gems/ruby-1.9.2-p320@global/bin:/usr/local/rvm/rubies/ruby-1.9.2-p320/bin:/usr/local/rvm/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/lib/jvm/java-6-sun/bin
-export GEM_HOME=/usr/local/rvm/gems/ruby-1.9.2-p320@dotcloud
-export GEM_PATH=/usr/local/rvm/gems/ruby-1.9.2-p320@dotcloud:/usr/local/rvm/gems/ruby-1.9.2-p320@global
-export RAILS_ENV=production
+mysql.server start
+cd ~/src/birthday_bot
+PATH="/Applications/MacVim.app/Contents/MacOS:/usr/local/phantomjs-1.9.0-macosx/bin:/usr/local/heroku/bin:/Users/atsumitatsuya/.rbenv/shims:/Users/atsumitatsuya/.rbenv/versions/1.9.3-p194/bin/:/usr/local/sbin/:/usr/local/Cellar/mysql/5.5.25a/bin/:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bini;$PATH"
 
-cd ~/code
-rails runner "Birthday.post_birthdays Date.today"
+bundle exec rails runner -e production "Birthday.post_birthdays Date.today"

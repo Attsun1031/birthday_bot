@@ -1,29 +1,620 @@
-one:
-  birthday: 19790326
-  comment: Brainは名盤でしょう。
+attributes1:
+  id: 1
+  birthday: '19470310'
+  name_en: Tom Scholz
+  name_ja: トム・ショルツ
+  introduction: ボストンの創設者、
+  comment: !!null 
+  link: http://www.amazon.co.jp/gp/product/B000NY1462/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B000NY1462&linkCode=as2&tag=progremeibans-22
+  created_at: 2013-03-09 13:35:26.000000000Z
+  updated_at: 2013-03-09 13:35:26.000000000Z
+attributes2:
+  id: 2
+  birthday: '19190317'
+  name_en: Nat King Cole
+  name_ja: ナット・キング・コール
+  introduction: !!null 
+  comment: ジャズ・ピアニストとしてだけでなく、歌手としても活躍しました。
+  link: http://www.amazon.co.jp/gp/product/B00005USL0/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B00005USL0&linkCode=as2&tag=progremeibans-22
+  created_at: 2013-03-15 13:53:58.000000000Z
+  updated_at: 2013-03-15 13:53:58.000000000Z
+attributes3:
+  id: 3
+  birthday: '19630317'
+  name_en: Hiroto Komoto
+  name_ja: 甲本ヒロト
+  introduction: !!null 
+  comment: ブルーハーツでの活躍が印象的でしたね。
+  link: !!null 
+  created_at: 2013-03-15 13:53:58.000000000Z
+  updated_at: 2013-03-15 13:53:58.000000000Z
+attributes4:
+  id: 4
+  birthday: '19630318'
+  name_en: John Hartman
+  name_ja: !!null 
+  introduction: ドゥービー・ブラザーズのオリジナルドラマー、
+  comment: !!null 
+  link: !!null 
+  created_at: 2013-03-15 13:53:58.000000000Z
+  updated_at: 2013-03-15 13:53:58.000000000Z
+attributes5:
+  id: 5
+  birthday: '19500320'
+  name_en: Carl Palmer
+  name_ja: カール・パーマー
+  introduction: ELPのドラマーである
+  comment: 「恐怖の頭脳改革」収録の「Toccata」でのドタバタしたドラムは癖になります。
+  link: http://www.amazon.co.jp/dp/B003I8WZE0/ref=as_li_tf_til?tag=progremeibans-22&camp=243&creative=1615&linkCode=as1&creativeASIN=B003I8WZE0&adid=1SY92AAGY5P0C20VYCZD&&ref-refURL=http%3A%2F%2Fprogre-meiban.com%2Fprogressive_rock%2Felp%2Fbrain_salad_surgery.sht
+  created_at: 2013-03-18 14:17:20.000000000Z
+  updated_at: 2013-03-18 14:17:20.000000000Z
+attributes6:
+  id: 6
+  birthday: '19550320'
+  name_en: Mariya Takeuchi
+  name_ja: 竹内まりや
+  introduction: !!null 
+  comment: 「駅」や「シングル・アゲイン」など、彼女の切ない歌は癖になります。
+  link: http://www.amazon.co.jp/gp/product/B001DAIMZ6/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B001DAIMZ6&linkCode=as2&tag=progremeibans-22
+  created_at: 2013-03-18 14:17:20.000000000Z
+  updated_at: 2013-03-18 14:17:20.000000000Z
+attributes7:
+  id: 7
+  birthday: '19800321'
+  name_en: Deryck Whibley
+  name_ja: デリック・ウィブリー
+  introduction: Sum41のリードボーカルである
+  comment: プログレ好きにはあまり縁の無さそうなバンドですが、「Does This Look Infected?」はなかなかの作品だと思います。
+  link: http://www.amazon.co.jp/gp/product/B00007E9XV/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B00007E9XV&linkCode=as2&tag=progremeibans-22
+  created_at: 2013-03-20 01:34:43.000000000Z
+  updated_at: 2013-03-20 01:34:43.000000000Z
+attributes8:
+  id: 8
+  birthday: '19430322'
+  name_en: Keith Relf
+  name_ja: キース・レルフ
+  introduction: !!null 
+  comment: ヤードバースのリード・ボーカルとして活躍後、ルネッサンスの創設メンバーとしても貢献しました。
+  link: http://www.amazon.co.jp/gp/product/B0000073BF/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B0000073BF&linkCode=as2&tag=progremeibans-22
+  created_at: 2013-03-21 14:58:51.000000000Z
+  updated_at: 2013-03-21 14:58:51.000000000Z
+attributes9:
+  id: 9
+  birthday: '19430322'
+  name_en: George Benson
+  name_ja: ジョージ・ベンソン
+  introduction: ジャズ・フュージョンを代表するギタリスト、
+  comment: 「Affirmation」はジャンルを超えた名曲ですね。なんというか、とてもセクシーですよね。
+  link: http://www.amazon.co.jp/gp/product/B000002KHU/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B000002KHU&linkCode=as2&tag=progremeibans-22
+  created_at: 2013-03-21 15:02:59.000000000Z
+  updated_at: 2013-03-21 15:02:59.000000000Z
+attributes10:
+  id: 10
+  birthday: '19420325'
+  name_en: Aretha Franklin
+  name_ja: アレサ・フランクリン
+  introduction: アメリカを代表するソウルシンガー、
+  comment: !!null 
+  link: !!null 
+  created_at: 2013-03-24 09:22:16.000000000Z
+  updated_at: 2013-03-24 09:22:16.000000000Z
+attributes11:
+  id: 11
+  birthday: '19470325'
+  name_en: Elton John
+  name_ja: エルトン・ジョン
+  introduction: イギリス出身のシンガーソングライター、
+  comment: !!null 
+  link: !!null 
+  created_at: 2013-03-24 09:22:16.000000000Z
+  updated_at: 2013-03-24 09:22:16.000000000Z
+attributes12:
+  id: 12
+  birthday: '19610325'
+  name_en: Makoto Ozone
+  name_ja: 小曽根真
+  introduction: 日本のジャズ・ピアニスト、
+  comment: !!null 
+  link: !!null 
+  created_at: 2013-03-24 09:22:17.000000000Z
+  updated_at: 2013-03-24 09:22:17.000000000Z
+attributes13:
+  id: 13
+  birthday: '19790326'
   name_en: Hiromi Uehara
   name_ja: 上原ひろみ
-  introduction: 世界を代表するジャズ・ピアニストである
-  link: "http://ueharahiromi.com/"
-
-two:
-  birthday: 99990110
-  comment:
-  name_en: Michael Schenker
-  name_ja: マイケル・シェンカー
-  introduction: ドイツの生んだ早熟の天才、
-
-three:
-  birthday: 99990326
-  comment:
+  introduction: 浜松の生んだ現代最高のピアニスト、
+  comment: 圧倒的なテクニックと独特なパフォーマンスは、一度見れば忘れないでしょう。プログレ好きな方は気に入るんではないでしょうか。イチオシはBrainです。
+  link: http://progre-meiban.com/jazz/uehara_hiromi/brain.shtml
+  created_at: 2013-03-24 09:22:17.000000000Z
+  updated_at: 2013-03-26 06:45:06.000000000Z
+attributes14:
+  id: 14
+  birthday: '19480326'
+  name_en: Stenven Tyler
+  name_ja: スティーブン・タイラー
+  introduction: エアロ・スミスのボーカルとして日本でも有名な、
+  comment: !!null 
+  link: !!null 
+  created_at: 2013-03-24 09:22:17.000000000Z
+  updated_at: 2013-03-24 09:22:17.000000000Z
+attributes15:
+  id: 15
+  birthday: '19440326'
   name_en: Diana Ross
-  name_ja:
-  introduction:
-
-four:
-  birthday: 99990110
-  comment:
-  name_en: Max Roach
-  name_ja:
-  introduction:
-
+  name_ja: ダイアナ・ロス
+  introduction: !!null 
+  comment: !!null 
+  link: !!null 
+  created_at: 2013-03-24 09:22:17.000000000Z
+  updated_at: 2013-03-24 09:22:17.000000000Z
+attributes16:
+  id: 16
+  birthday: '19240327'
+  name_en: Sarah Vaughan
+  name_ja: サラ・ヴォーン
+  introduction: ジャズボーカリスト、
+  comment: 「枯葉」で炸裂する、力強く表情豊かなスキャットは非常に印象的ですね。
+  link: http://www.amazon.co.jp/gp/product/B000STC6KU/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B000STC6KU&linkCode=as2&tag=progremeibans-22
+  created_at: 2013-03-24 09:22:17.000000000Z
+  updated_at: 2013-03-24 09:22:17.000000000Z
+attributes17:
+  id: 17
+  birthday: '19500327'
+  name_en: Tony Banks
+  name_ja: トニー・バンクス
+  introduction: ジェネシスのキーボードである
+  comment: 「Firth of Fifth」でのイントロのピアノは非常に美しくうっとりします。
+  link: http://progre-meiban.com/progressive_rock/genesis/selling_england_by_the_pound.shtml
+  created_at: 2013-03-24 09:22:17.000000000Z
+  updated_at: 2013-03-26 06:46:56.000000000:Z
+attributes18:
+  id: 18
+  birthday: '19610327'
+  name_en: Takahiro Matsumoto
+  name_ja: 松本孝弘
+  introduction: 日本を代表するギタリスト、
+  comment: B’zの他、ラリー・カールトンとの共演によるグラミー賞受賞など、幅広く活躍しています。
+  link: http://www.amazon.co.jp/gp/product/B003GFID2I/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B003GFID2I&linkCode=as2&tag=progremeibans-22
+  created_at: 2013-03-24 09:22:17.000000000Z
+  updated_at: 2013-03-26 06:46:18.000000000Z
+attributes19:
+  id: 19
+  birthday: '19530327'
+  name_en: Masayoshi Takanaka
+  name_ja: 高中正義
+  introduction: 日本のフュージョン系ギタリスト、
+  comment: !!null 
+  link: !!null 
+  created_at: 2013-03-24 09:22:17.000000000Z
+  updated_at: 2013-03-24 09:22:17.000000000Z
+attributes20:
+  id: 20
+  birthday: '19480328'
+  name_en: John Evan
+  name_ja: ジョン・エヴァン
+  introduction: ジェスロ・タルのキーボード、
+  comment: 「Thick As A Brick」を始め、多くの作品でジェスロ・タルを支えました。
+  link: http://progre-meiban.com/progressive_rock/jethro_tull/thick_as_a_brick.shtml
+  created_at: 2013-03-26 11:11:00.000000000Z
+  updated_at: 2013-03-26 11:14:18.000000000Z
+attributes21:
+  id: 21
+  birthday: '19860328'
+  name_en: Lady Gaga
+  name_ja: レディ・ガガ
+  introduction: ''
+  comment: 名前をクイーンの曲である「Radio Ga Ga」から取ったことで有名です。
+  link: ''
+  created_at: 2013-03-26 11:13:23.000000000Z
+  updated_at: 2013-03-27 06:03:52.000000000Z
+attributes22:
+  id: 22
+  birthday: '19490329'
+  name_en: Michael Brecker
+  name_ja: マイケル・ブレッカー
+  introduction: ジャズ界屈指のサックスプレイヤー、
+  comment: 遺作となってしまった２００７年作「聖地への旅」は、ブラッド・メルドーやハービー・ハンコックらも参加した名作です。
+  link: http://www.amazon.co.jp/gp/product/B000O78XC6/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B000O78XC6&linkCode=as2&tag=progremeibans-22
+  created_at: 2013-03-27 06:09:32.000000000Z
+  updated_at: 2013-03-29 03:05:37.000000000Z
+attributes23:
+  id: 23
+  birthday: '19470329'
+  name_en: Bobby Kimball
+  name_ja: ボビー・キンボール
+  introduction: TOTOの初代ボーカル、
+  comment: ''
+  link: ''
+  created_at: 2013-03-27 12:00:56.000000000Z
+  updated_at: 2013-03-27 12:00:56.000000000Z
+attributes24:
+  id: 24
+  birthday: '19430329'
+  name_en: Vangelis
+  name_ja: ヴァンゲリス
+  introduction: ギリシャ生まれの音楽家、
+  comment: ''
+  link: ''
+  created_at: 2013-03-27 12:02:23.000000000Z
+  updated_at: 2013-03-27 12:02:23.000000000Z
+attributes26:
+  id: 26
+  birthday: '19450330'
+  name_en: Eric Clapton
+  name_ja: エリック・クラプトン
+  introduction: ''
+  comment: つい先日、新作「Old Sock」をリリース。まだまだ健在です。スティーブ・ガッドやポール・マッカートニー等ビッグネームが参加しています。
+  link: http://www.amazon.co.jp/gp/product/B00BBFYZ7W/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B00BBFYZ7W&linkCode=as2&tag=progremeibans-22
+  created_at: 2013-03-28 14:44:41.000000000Z
+  updated_at: 2013-03-28 14:47:01.000000000Z
+attributes27:
+  id: 27
+  birthday: '19790330'
+  name_en: Norah Jones
+  name_ja: ノラ・ジョーンズ
+  introduction: ''
+  comment: ''
+  link: ''
+  created_at: 2013-03-28 14:49:08.000000000Z
+  updated_at: 2013-03-28 14:49:08.000000000Z
+attributes28:
+  id: 28
+  birthday: '19550331'
+  name_en: Angus Young
+  name_ja: アンガス・ヤング
+  introduction: AC/DCの
+  comment: ランドセル背負ってギターを弾くことで有名。
+  link: ''
+  created_at: 2013-03-28 14:50:33.000000000Z
+  updated_at: 2013-03-28 15:03:30.000000000Z
+attributes29:
+  id: 29
+  birthday: '19480331'
+  name_en: Thijs van Leer
+  name_ja: タイス・ヴァン・レール
+  introduction: ヨーデルおじさん
+  comment: 一度聴いたらプログレの虜になってしまうと言われる悪魔の呪文を唱えることができます。
+  link: http://progre-meiban.com/progressive_rock/focus/moving_waves.shtml
+  created_at: 2013-03-28 14:52:43.000000000Z
+  updated_at: 2013-03-29 03:04:20.000000000Z
+attributes30:
+  id: 30
+  birthday: '19540401'
+  name_en: Jeff Porcaro
+  name_ja: ジェフ・ポーカロ
+  introduction: ''
+  comment: Rosannaをはじめ、独特のシャッフルは非常に印象的。ドラムを語る上で外せない人物ですね。
+  link: http://www.amazon.co.jp/gp/product/B00005G9B7/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B00005G9B7&linkCode=as2&tag=progremeibans-22
+  created_at: 2013-03-29 11:48:30.000000000Z
+  updated_at: 2013-03-29 11:48:30.000000000Z
+attributes31:
+  id: 31
+  birthday: '19390402'
+  name_en: Marvin Gaye
+  name_ja: マーヴィン・ゲイ
+  introduction: ''
+  comment: ''
+  link: ''
+  created_at: 2013-03-30 09:15:36.000000000Z
+  updated_at: 2013-03-30 09:15:36.000000000Z
+attributes32:
+  id: 32
+  birthday: '19540402'
+  name_en: Susumu Hirasawa
+  name_ja: 平沢進
+  introduction: P-MODELの
+  comment: ''
+  link: ''
+  created_at: 2013-03-30 09:17:25.000000000Z
+  updated_at: 2013-03-30 09:17:25.000000000Z
+attributes33:
+  id: 33
+  birthday: '19420402'
+  name_en: Leon Russell
+  name_ja: レオン・ラッセル
+  introduction: ''
+  comment: 「A Song For You」を始め、多くのアーティストにカバーされたヒット曲多数。独特のアンニュイなボーカルは非常に魅力的です。
+  link: http://www.amazon.co.jp/gp/product/B000AU1O1E/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B000AU1O1E&linkCode=as2&tag=progremeibans-22
+  created_at: 2013-03-30 09:20:50.000000000Z
+  updated_at: 2013-03-30 09:20:50.000000000Z
+attributes34:
+  id: 34
+  birthday: '19430402'
+  name_en: Larry Coryell
+  name_ja: ラリー・コリエル
+  introduction: フュージョン系ギタリスト、
+  comment: イチオシはジョン・マクラフリンやビリー・コブハムらとともに制作したSpaces。
+  link: http://www.amazon.co.jp/gp/product/B000000EL6/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B000000EL6&linkCode=as2&tag=progremeibans-22
+  created_at: 2013-03-30 09:27:23.000000000Z
+  updated_at: 2013-03-30 09:27:23.000000000Z
+attributes35:
+  id: 35
+  birthday: '19090530'
+  name_en: Benny Goodman
+  name_ja: ベニー・グッドマン
+  introduction: '"King of Swing"、'
+  comment: 大江戸ウィンドオーケストラによるSing Sing Singが非常にオススメです。
+  link: http://progre-meiban.com/big_band/oedo_wind_orchestra/live_in_2001.shtml
+  created_at: 2013-03-31 05:54:46.000000000Z
+  updated_at: 2013-03-31 05:54:46.000000000Z
+attributes36:
+  id: 36
+  birthday: '19491214'
+  name_en: Pierluigi Calderoni
+  name_ja: ''
+  introduction: Banco Del Mutuo Soccorsoのドラマー、
+  comment: ''
+  link: ''
+  created_at: 2013-04-02 05:27:05.000000000Z
+  updated_at: 2013-04-02 05:27:05.000000000Z
+attributes37:
+  id: 37
+  birthday: '19521227'
+  name_en: Gianni Nocenzi
+  name_ja: ''
+  introduction: Banco del Mutuo Soccorsoのピアニスト、
+  comment: ''
+  link: ''
+  created_at: 2013-04-02 05:28:43.000000000Z
+  updated_at: 2013-04-02 05:28:43.000000000Z
+attributes38:
+  id: 38
+  birthday: '19510123'
+  name_en: Vittorio Nocenzi
+  name_ja: ''
+  introduction: Banco del Mutuo Soccorsoのオルガン、
+  comment: ''
+  link: ''
+  created_at: 2013-04-02 05:30:13.000000000Z
+  updated_at: 2013-04-02 05:30:13.000000000Z
+attributes39:
+  id: 39
+  birthday: '19520404'
+  name_en: Gary Moore
+  name_ja: ゲイリー・ムーア
+  introduction: ''
+  comment: ジョン・ハイズマンやドン・エイリーとともにコロシアムIIで活躍。「War Dance」収録のThe Inquisitionでのプレーが大好きです。
+  link: http://progre-meiban.com/progressive_rock/colosseum2/war_dance.shtml
+  created_at: 2013-04-02 07:52:04.000000000Z
+  updated_at: 2013-04-02 07:52:04.000000000Z
+attributes40:
+  id: 40
+  birthday: '19500404'
+  name_en: Pip Pyle
+  name_ja: ピップ・パイル
+  introduction: ''
+  comment: ナショナル・ヘルスやハットフィールド・アンド・ザ・ノース、ゴングといったカンタベリー系バンドに在籍。
+  link: ''
+  created_at: 2013-04-02 12:24:17.000000000Z
+  updated_at: 2013-04-02 12:24:17.000000000Z
+attributes41:
+  id: 41
+  birthday: '19150404'
+  name_en: Muddy Waters
+  name_ja: マディ・ウォーターズ
+  introduction: 「シカゴ・ブルースの父」、
+  comment: ''
+  link: ''
+  created_at: 2013-04-02 12:27:12.000000000Z
+  updated_at: 2013-04-02 12:27:12.000000000Z
+attributes42:
+  id: 42
+  birthday: '19360403'
+  name_en: Scott LaFaro
+  name_ja: スコット・ラファロ
+  introduction: ビル・エヴァンス・トリオのベーシスト、
+  comment: 名盤「Portrait In Jazz」収録の枯葉でのエヴァンスとの掛け合いは非常にスリリング。
+  link: http://www.amazon.co.jp/gp/product/B004C9P9QU/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B004C9P9QU&linkCode=as2&tag=progremeibans-22
+  created_at: 2013-04-02 23:25:35.000000000Z
+  updated_at: 2013-04-02 23:25:35.000000000Z
+attributes43:
+  id: 43
+  birthday: '19290406'
+  name_en: Art Taylor
+  name_ja: アート・テイラー
+  introduction: アメリカのジャズドラマー、
+  comment: ジョン・コルトレーンの「Giant Steps」やレッド・ガーランド「Groovy」等、名盤の誕生に貢献しています。
+  link: http://www.amazon.co.jp/gp/product/B0010MTL5W/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B0010MTL5W&linkCode=as2&tag=progremeibans-22
+  created_at: 2013-04-03 04:55:28.000000000Z
+  updated_at: 2013-04-03 04:55:28.000000000Z
+attributes44:
+  id: 44
+  birthday: '19530105'
+  name_en: Gianluigi Di Franco
+  name_ja: ''
+  introduction: イタリアのプログレバンドCervelloのボーカル、
+  comment: 名作「Melos」では、イタリアンプログレらしい不気味かつ力強いボーカルが披露されています。
+  link: http://progre-meiban.com/progressive_rock/cervello/melos.shtml
+  created_at: 2013-04-03 05:03:57.000000000Z
+  updated_at: 2013-04-03 05:03:57.000000000Z
+attributes45:
+  id: 45
+  birthday: '19470407'
+  name_en: Florian Schneider
+  name_ja: フローリアン・シュナイダー
+  introduction: クラフトワークの創設メンバーの一人、
+  comment: ''
+  link: ''
+  created_at: 2013-04-03 14:51:23.000000000Z
+  updated_at: 2013-04-03 14:51:23.000000000Z
+attributes46:
+  id: 46
+  birthday: '19380407'
+  name_en: Freddie Hubbard
+  name_ja: フレディ・ハバード
+  introduction: ジャズ・トランペット奏者、
+  comment: ハービー・ハンコックのVSOPには、マイルスの代役として直前に入ったそうです。
+  link: ''
+  created_at: 2013-04-03 14:58:04.000000000Z
+  updated_at: 2013-04-03 14:58:04.000000000Z
+attributes47:
+  id: 47
+  birthday: '19150407'
+  name_en: Billie Holiday
+  name_ja: ビリー・ホリデイ
+  introduction: ''
+  comment: 彼女の壮絶な人生の記録を読みながら歌を聴けば、間違いなく一度で印象に残るでしょう。
+  link: http://www.amazon.co.jp/gp/product/B004Q84Y36/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B004Q84Y36&linkCode=as2&tag=progremeibans-22
+  created_at: 2013-04-03 15:02:35.000000000Z
+  updated_at: 2013-04-03 15:06:30.000000000Z
+attributes48:
+  id: 48
+  birthday: '19470408'
+  name_en: Steve Howe
+  name_ja: スティーブ・ハウ
+  introduction: Yesのギタリスト、
+  comment: もはやおじいちゃんですが、まだまだ元気に頑張っています。
+  link: http://www.amazon.co.jp/gp/product/B005N9EZMW/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B005N9EZMW&linkCode=as2&tag=progremeibans-22
+  created_at: 2013-04-06 00:51:57.000000000Z
+  updated_at: 2013-04-06 00:51:57.000000000Z
+attributes49:
+  id: 49
+  birthday: '19430408'
+  name_en: Phil Lee
+  name_ja: フィル・リー
+  introduction: National Healthの前身バンドであるギルガメッシュのギタリスト、
+  comment: ''
+  link: http://www.amazon.co.jp/gp/product/B004EK3L44/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B004EK3L44&linkCode=as2&tag=progremeibans-22
+  created_at: 2013-04-06 00:59:39.000000000Z
+  updated_at: 2013-04-06 00:59:39.000000000Z
+attributes50:
+  id: 50
+  birthday: '19450409'
+  name_en: Steve Gadd
+  name_ja: スティーブ・ガッド
+  introduction: 音楽界随一のドラマー、
+  comment: その仕事ぶりはアル・ディ・メオラからSMAPまで超幅広い。歌うようなフィルイン、絶妙な切れ味のハイハット、最高です。
+  link: http://www.amazon.co.jp/gp/product/B001AZ8BLY/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B001AZ8BLY&linkCode=as2&tag=progremeibans-22
+  created_at: 2013-04-07 01:37:59.000000000Z
+  updated_at: 2013-04-07 01:37:59.000000000Z
+attributes51:
+  id: 51
+  birthday: '19520219'
+  name_en: Claudio Simonetti
+  name_ja: クラウディオ・シモネッティ
+  introduction: ''
+  comment: ''
+  link: ''
+  created_at: 2013-04-07 01:40:59.000000000Z
+  updated_at: 2013-04-07 01:40:59.000000000Z
+attributes52:
+  id: 52
+  birthday: '19420601'
+  name_en: Alberto Radius
+  name_ja: ''
+  introduction: ''
+  comment: Formula3やIl Voloのギターボーカルを務めました。
+  link: http://progre-meiban.com/progressive_rock/il_volo/essere_o_non_essere.shtml
+  created_at: 2013-04-08 04:19:48.000000000Z
+  updated_at: 2013-04-08 04:19:48.000000000Z
+attributes53:
+  id: 53
+  birthday: '19480508'
+  name_en: Mario Lavezzi
+  name_ja: ''
+  introduction: ''
+  comment: Il VoloやI Camaleontiにてギターを担当。
+  link: http://progre-meiban.com/progressive_rock/il_volo/essere_o_non_essere.shtml
+  created_at: 2013-04-08 04:23:48.000000000Z
+  updated_at: 2013-04-08 04:23:48.000000000Z
+attributes54:
+  id: 54
+  birthday: '19420703'
+  name_en: Gabriele Lorenzi
+  name_ja: ''
+  introduction: Il VoloとFormula3の鍵盤奏者、
+  comment: ''
+  link: http://progre-meiban.com/progressive_rock/il_volo/essere_o_non_essere.shtml
+  created_at: 2013-04-08 04:25:25.000000000Z
+  updated_at: 2013-04-08 04:25:25.000000000Z
+attributes55:
+  id: 55
+  birthday: '19460918'
+  name_en: Vince Tempera
+  name_ja: ''
+  introduction: Il Voloのピアニスト、
+  comment: ''
+  link: http://progre-meiban.com/progressive_rock/il_volo/essere_o_non_essere.shtml
+  created_at: 2013-04-08 04:26:46.000000000Z
+  updated_at: 2013-04-08 04:26:46.000000000Z
+attributes56:
+  id: 56
+  birthday: '19500504'
+  name_en: Roberto Callero
+  name_ja: ''
+  introduction: Il Voloのベーシスト、
+  comment: ''
+  link: http://progre-meiban.com/progressive_rock/il_volo/essere_o_non_essere.shtml
+  created_at: 2013-04-08 04:29:50.000000000Z
+  updated_at: 2013-04-08 04:29:50.000000000Z
+attributes57:
+  id: 57
+  birthday: '19451001'
+  name_en: "Gianni Dall'Aglio"
+  name_ja: ''
+  introduction: Il Voloのドラマー、
+  comment: ''
+  link: http://progre-meiban.com/progressive_rock/il_volo/essere_o_non_essere.shtml
+  created_at: 2013-04-08 04:31:59.000000000Z
+  updated_at: 2013-04-08 04:31:59.000000000Z
+attributes58:
+  id: 58
+  birthday: '19590410'
+  name_en: Brian Setzer
+  name_ja: ブライアン・セッツァー
+  introduction: ロカビリー系ギタリスト、
+  comment: 「Stray Cat Strut」のイントロを聴いたこと無い、って人はほとんどいないんではないんでしょうか。ブライアン・セッツァー・オーケストラもオススメです。
+  link: http://www.amazon.co.jp/gp/product/B001LKQNTA/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=B001LKQNTA&linkCode=as2&tag=progremeibans-22
+  created_at: 2013-04-09 01:07:59.000000000Z
+  updated_at: 2013-04-09 01:08:12.000000000Z
+attributes59:
+  id: 59
+  birthday: '19400412'
+  name_en: Herbie Hancock
+  name_ja: ハービー・ハンコック
+  introduction: ''
+  comment: マイルスの元でピアニストとして活躍。「Head Hunters」はジャズ・ファンクの名盤。プログレ好きにもオススメです。
+  link: http://progre-meiban.com/jazz/herbie_hancock/head_hunters.shtml
+  created_at: 2013-04-10 04:14:59.000000000Z
+  updated_at: 2013-04-10 04:15:19.000000000Z
+attributes60:
+  id: 60
+  birthday: '19450414'
+  name_en: Ritchie Blackmore
+  name_ja: リッチー・ブラックモア
+  introduction: ''
+  comment: パープルもいいですが、リッチー、ディオ、コージーによる「三頭政治」時代のレインボーが一番好きです。
+  link: http://progre-meiban.com/other_rock/rainbow/rising.shtml
+  created_at: 2013-04-12 04:49:25.000000000Z
+  updated_at: 2013-04-12 04:49:25.000000000Z
+attributes61:
+  id: 61
+  birthday: '19680415'
+  name_en: "Edo O'Brien"
+  name_ja: エド・オブライエン
+  introduction: レディオヘッドのギタリスト、
+  comment: ''
+  link: ''
+  created_at: 2013-04-13 14:59:41.000000000Z
+  updated_at: 2013-04-13 14:59:41.000000000Z
+attributes62:
+  id: 62
+  birthday: '19681007'
+  name_en: Tom Yorke
+  name_ja: トム・ヨーク
+  introduction: レディオヘッドの
+  comment: ''
+  link: ''
+  created_at: 2013-04-13 15:02:17.000000000Z
+  updated_at: 2013-04-13 15:02:17.000000000Z
+attributes63:
+  id: 63
+  birthday: '19470415'
+  name_en: David Jackson
+  name_ja: デイヴィッド・ジャクソン
+  introduction: VDGGのサックス、
+  comment: ''
+  link: http://progre-meiban.com/progressive_rock/van_der_graaf_generator/still_life.shtml
+  created_at: 2013-04-13 15:22:56.000000000Z
+  updated_at: 2013-04-13 15:22:56.000000000Z

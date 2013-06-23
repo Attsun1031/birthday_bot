@@ -1,9 +1,22 @@
 # coding: utf-8
 
 require 'twitter'
+require 'date'
 
 class Birthday < ActiveRecord::Base
   attr_accessible :birthday, :comment, :introduction, :name_en, :name_ja, :link
+
+  validates :name_en, :presence => true, :uniqueness => { :scope => :birthday }
+
+  validates :birthday, :presence => true, :length => { :maximum => 8, :minimum => 8 }
+  validates_each :birthday do |record, attr, value|
+    # 日付の有効性確認
+    begin
+      Date.strptime value ,"%Y%m%d"
+    rescue
+      record.errors.add attr, "invalid date"
+    end
+  end
 
   MESSAGE_TEMPLATE = '今日は%s%sの誕生日！%s'
   POST_INTERVAL = 5
